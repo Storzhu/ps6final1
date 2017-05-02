@@ -127,4 +127,7 @@ public class PersonDomainModel {
     public ObjectProperty<LocalDate> birthdayProperty() {
         return birthday;
     }
+    public UUID getPersonId() {
+		return PersonID;
+	}
 }
